@@ -1,0 +1,34 @@
+Execute os cenários abaixo no BankSys. Para cada cenário, 
+informe se a operação foi executa como esperado. Identifique
+quais problemas foram encontrados. Especifique em qual parte
+do código fonte estão os problemas indicando o nome da(s) 
+classe(s), do(s) método(s) e o número das linhas de código
+que envolvidas na causa do bug de cada cenário.
+
+1) Cadastre 1 conta simples (ordinary account) com o número 123A
+1.1) Credite R$ 50,00
+1.2) Veja se o saldo está correto
+1.3) Debite R$ 30,00
+1.4) Veja se o saldo está correto
+
+2) Cadastre 1 conta imposto (tax account) com o número 123B
+2.1) Credite R$ 50,00
+2.2) Veja se o saldo está correto
+2.3) Debite R$ 30,00
+2.4) Veja se o saldo está correto
+
+3) Cadastre 1 conta poupança (savings account) com o número 123C
+3.1) Credite R$ 50,00
+3.2) Veja se o saldo está correto
+3.3) Debite R$ 30,00
+3.4) Veja se o saldo está correto
+
+4) Cadastre 1 conta especial (special account) com o número 123B
+4.1) Credite R$ 50,00
+1.2) Veja se o saldo está correto
+4.3) Debite R$ 30,00
+4.4) Veja se o saldo está correto
+
+5) Realize uma operação de transferência da conta simples nº 123A 
+para a conta poupança nº 123C no valor de R$ 10,00
+5.1) Veja se o saldo nas duas contas está correto
